@@ -8,6 +8,14 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bootstrap.min.css">
+
+  <style>
+    .clear_pre {
+      background: #00000000;
+      color: #FFF;
+      border: none
+    }
+  </style>
 </head>
 
 <body style="padding-top: 1cm">
@@ -24,13 +32,13 @@
 
           <img src="./sanket.jpg" class="img-responsive img-rounded" alt="Profile Picture">
           <h2 class="display-3">Sanket Berde</h2>
-          <small>
+          
             <span>
-              <a class="text-warning" href="mailto:sanket@blackcurrantapps.com?Subject=Hey%20there%20!">sanket@blackcurrantapps.com</a>
+              <a href="mailto:sanket@blackcurrantapps.com?Subject=Hey%20there%20!"><b>sanket@blackcurrantapps.com</b></a>
               &nbsp;&nbsp;
               <a class="text-danger" href="https://twitter.com/its_teknas">@its_teknas</a>
             </span>
-          </small>
+          
           <br>
           <br>
           <p style="font-size: 2em">
@@ -72,46 +80,45 @@
           <h3 class="panel-title">Technical Specifications</h3>
         </div>
         <div class="panel-body">
-          <pre style="background: #00000000; color: #FFF; border: none">        
+          <span>
+            <pre class="clear_pre">        
 swagger: "included"
 info:
-  title: "Sanket Berde"
+  title: "<span class="text-danger"><b>Sanket Berde</b></span>"
   contact:
     emails: 
-      - "sanket@blackcurrantapps.com"
-      - "sanket.berde@gmail.com"
+      - "<a href="mailto:sanket@blackcurrantapps.com">sanket@blackcurrantapps.com</a>"
+      - "<a href="mailto:sanket.berde@gmail.com">sanket.berde@gmail.com</a>"
 
 current_position: "CTO & Co-Founder at Blackcurrant Apps LLP."
-host: "http://wwww.blackcurrantapps.com"
+host: "<a href="http://www.blackcurrantapps.com">http://www.blackcurrantapps.com</a>"
 
 tags : 
 
-  - name: "Cloud"
+  - name: "<span class="text-warning">Cloud</span>"
     description: "I Manage all AWS & Google Cloud Resources at my company"
 
-  - name: "Server Architecture"
+  - name: "<span class="text-warning">Server Architecture</span>"
     description: "Everything from docker/kubernetes to serverless. 
       Also, traditional ec2's with AutoScaling & Load Balancers"
   
-  - name: "UI/UX Prototyping"
+  - name: "<span class="text-warning">UI/UX Prototyping</span>"
     description: "From an idea to a sketch"
 
-  - name: "Product development"
+  - name: "<span class="text-warning">Product development</span>"
     description: "From an sketch to a POC"
 
-  - name: "Project Execution"
+  - name: "<span class="text-warning">Project Execution</span>"
     description: "From an POC to a Product"
 
-frameworks:
-
+<span class="text-info">frameworks</span>:
   - "Android"
   - "Angular 4"
   - "Express JS"
   - "Sails JS"
   - "Electron"
   
-cloud:
-  
+<span class="text-info">cloud</span>:
   - "Google App Engine"
   - "Google Cloud Datastore"
   - "Firebase Database"
@@ -119,13 +126,18 @@ cloud:
   - "AWS Lamda"
   - "AWS Cognito"
   
-misc:
-  
+<span class="text-info">misc</span>:
   - "Photoshop"
   - "Unity 3D"
   - "Blender"
   - "three.js"
+
+<span class="text-danger">non_tech_hobbies</span>:
+  - "Guitar"
+  - "Badminton"
+
           </pre>
+          </span>
         </div>
       </div>
 
