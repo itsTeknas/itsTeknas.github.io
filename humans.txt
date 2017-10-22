@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Sanket Berde -- CTO & Co-Founder at BlackCurrant Apps LLP. -- @its_teknas
+
+# THANKS
+
+    Sanket Berde
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, Bootstrap
